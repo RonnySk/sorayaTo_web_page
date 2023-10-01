@@ -85,4 +85,29 @@
     align-items: center;
   }
 
+  .container-section4{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    background-color: #6aa9e9;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .subcontainer-section4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+ .mapa-container{
+    width: 200px;
+ }
+
+  .mapa-img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
 

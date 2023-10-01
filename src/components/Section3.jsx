@@ -1,6 +1,4 @@
-import { Box, Typography } from "@mui/material";
 import React from "react";
-import sorayaPerfilImg from "../images/soraya_perfil.png.jpg";
 import consultorio_interno1 from "../images/consultorio_interno1.png";
 import consultorio_interno2 from "../images/consultorio_interno2.png";
 import { Carousel } from "react-responsive-carousel";
