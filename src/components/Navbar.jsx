@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import logo from "../images/sorayaTo_logo7.png";
-import { pink } from "@mui/material/colors";
+import { Container } from "@mui/system";
 
 export default function NavBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -25,11 +25,11 @@ export default function NavBar() {
   };
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar sx={{ backgroundColor: "white" }} position="static">
-        <Toolbar>
-          <img className="logo" src={logo} alt="logo" />
-          <div className="menu-button">
+    <Box flexGrow={1}>
+      <AppBar sx={{ backgroundColor: "white " }} position="static">
+        <Toolbar sx={{ justifyContent: "space-between" }}>
+          <img src={logo} alt="logo" />
+          <Box sx={{ display: { xs: "block", md: "none", lg: "none" } }}>
             <Button
               id="basic-button"
               aria-controls={open ? "basic-menu" : undefined}
@@ -68,14 +68,14 @@ export default function NavBar() {
                 Contato
               </MenuItem>
             </Menu>
-          </div>
-          <div className="nav-btn">
+          </Box>
+          <Box sx={{ display: { xs: "none", md: "block", lg: "block" } }}>
             <Stack direction="row" spacing={2}>
               <Button sx={{ color: "darkBlue" }}>Sobre</Button>
               <Button sx={{ color: "darkBlue" }}>Estrutura</Button>
               <Button sx={{ color: "darkBlue" }}>Contato</Button>
             </Stack>
-          </div>
+          </Box>
         </Toolbar>
       </AppBar>
     </Box>
