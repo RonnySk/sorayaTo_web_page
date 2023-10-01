@@ -3,16 +3,13 @@ import {
   AppBar,
   Box,
   Toolbar,
-  Typography,
   Button,
-  IconButton,
   Menu,
   MenuItem,
   Stack,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import logo from "../images/sorayaTo_logo7.png";
-import { Container } from "@mui/system";
 
 export default function NavBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
