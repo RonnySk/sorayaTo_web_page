@@ -1,0 +1,33 @@
+import { Box, Typography } from "@mui/material";
+import React from "react";
+import sorayaPerfilImg from "../images/soraya_perfil.png.jpg";
+import consultorio_interno1 from "../images/consultorio_interno1.png";
+import consultorio_interno2 from "../images/consultorio_interno2.png";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+export default function Section3() {
+  return (
+    <div className="section3">
+      <h2>ESTRUTURA</h2>
+      <div className="carouselImg">
+        <Carousel width={600}>
+          <div>
+            <img
+              className="img-carousel"
+              src={consultorio_interno1}
+              alt="primeira imagem interna do consultorio"
+            />
+          </div>
+          <div>
+            <img
+              className="img-carousel"
+              src={consultorio_interno2}
+              alt="segunda imagem interna do consultorio"
+            />
+          </div>
+        </Carousel>
+      </div>
+    </div>
+  );
+}
