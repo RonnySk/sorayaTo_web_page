@@ -68,9 +68,39 @@ export default function NavBar() {
           </Box>
           <Box sx={{ display: { xs: "none", md: "block", lg: "block" } }}>
             <Stack direction="row" spacing={2}>
-              <Button sx={{ color: "darkBlue" }}>Sobre</Button>
-              <Button sx={{ color: "darkBlue" }}>Estrutura</Button>
-              <Button sx={{ color: "darkBlue" }}>Contato</Button>
+              <Button
+                sx={{
+                  color: "darkBlue",
+                  "&:hover": {
+                    color: "white",
+                    backgroundColor: "#6aa9e9",
+                  },
+                }}
+              >
+                Sobre
+              </Button>
+              <Button
+                sx={{
+                  color: "darkBlue",
+                  "&:hover": {
+                    color: "white",
+                    backgroundColor: "#6aa9e9",
+                  },
+                }}
+              >
+                Estrutura
+              </Button>
+              <Button
+                sx={{
+                  color: "darkBlue",
+                  "&:hover": {
+                    color: "white",
+                    backgroundColor: "#6aa9e9",
+                  },
+                }}
+              >
+                Contato
+              </Button>
             </Stack>
           </Box>
         </Toolbar>
