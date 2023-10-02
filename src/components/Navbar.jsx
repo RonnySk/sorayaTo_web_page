@@ -9,7 +9,7 @@ import {
   Stack,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import logo from "../images/sorayaTo_logo7.png";
+import logo from "../images/sorayaTo_logo_fundo_azul_pequena.png";
 
 export default function NavBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -23,7 +23,7 @@ export default function NavBar() {
 
   return (
     <Box flexGrow={1}>
-      <AppBar sx={{ backgroundColor: "white " }} position="static">
+      <AppBar sx={{ backgroundColor: "#6aa9e9" }} position="static">
         <Toolbar sx={{ justifyContent: "space-between" }}>
           <img src={logo} alt="logo" />
           <Box sx={{ display: { xs: "block", md: "none", lg: "none" } }}>
@@ -47,19 +47,19 @@ export default function NavBar() {
               }}
             >
               <MenuItem
-                sx={{ backgroundColor: "darkblue", color: "white" }}
+                sx={{ backgroundColor: "#6aa9e9", color: "white" }}
                 onClick={handleClose}
               >
                 Sobre
               </MenuItem>
               <MenuItem
-                sx={{ backgroundColor: "darkblue", color: "white" }}
+                sx={{ backgroundColor: "#6aa9e9", color: "white" }}
                 onClick={handleClose}
               >
                 Estrutura
               </MenuItem>
               <MenuItem
-                sx={{ backgroundColor: "darkblue", color: "white" }}
+                sx={{ backgroundColor: "#6aa9e9", color: "white" }}
                 onClick={handleClose}
               >
                 Contato

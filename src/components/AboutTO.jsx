@@ -1,5 +1,4 @@
 import React from "react";
-import sorayaPerfilImg from "../images/soraya_perfil.png.jpg";
 import puzzle from "../images/puzzle.png";
 
 export default function AboutTO() {
