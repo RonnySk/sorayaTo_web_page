@@ -308,5 +308,51 @@
         font-size: 20px;
     }
 
+    .container-therapies{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        text-align: center;
+        background-color: #6aa9e9;
+        border-radius: 10px;
+        color: white;
+        margin-top: 10px;
+        height: 80vh;
+    }
+
+    .subcontainer-therapies{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: 75%;
+    }
+
+    .logo2{
+        width: 35%;
+        height: 60%;
+        border-radius: 15px;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+
+    .therapies{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        text-align: left;
+        line-height: 40px;
+        height: 75%;
+        font-size: 20px;
+    }
+
+    .therapies li{
+        width: 80%;
+    }
+
+
+
+
     
 }
