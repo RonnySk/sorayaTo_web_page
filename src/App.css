@@ -105,12 +105,11 @@
 }
 
 .therapies li{
-    /* list-style:none; */
     text-align: left;
     line-height: 30px;
 }
 
-.section3{
+.container-galery{
     display: flex;
     flex-direction:column;
     text-align: center;
@@ -119,11 +118,11 @@
     color: #6aa9e9;
 }
 
-.section3 h2{
+.container-galery h2{
     margin-top: 30px;
 }
 
-.section3 img{
+.container-galery img{
     border-radius: 20px;
     margin: 10px;
 }
@@ -349,6 +348,33 @@
 
     .therapies li{
         width: 80%;
+    }
+
+    .container-galery{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        background-color: white;
+        color: #6aa9e9;
+    }
+    
+    .container-galery h2{
+        margin-top: 30px;
+        font-size: 35px;
+    }
+    
+    .subcontainer-galery{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 90%;
+    }
+    .subcontainer-galery img{
+        width: 35%;
+        border-radius: 20px;
+        margin: 10px;
     }
 
 

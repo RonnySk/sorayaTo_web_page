@@ -4,13 +4,15 @@ import consultorio_interno2 from "../images/consultorio_interno2.png";
 
 export default function ImgGalery() {
   return (
-    <div className="section3">
+    <div className="container-galery">
       <h2>Espaço</h2>
-      <img src={consultorio_interno1} alt="imagem interna do consultorio" />
-      <img
-        src={consultorio_interno2}
-        alt="imagem interna do consultorio dois"
-      />
+      <div className="subcontainer-galery">
+        <img src={consultorio_interno1} alt="imagem interna do consultorio" />
+        <img
+          src={consultorio_interno2}
+          alt="imagem interna do consultorio dois"
+        />
+      </div>
     </div>
   );
 }
