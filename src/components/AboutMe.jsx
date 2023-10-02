@@ -4,7 +4,7 @@ import sorayaPerfilImg from "../images/soraya_perfil.png.jpg";
 export default function AboutMe() {
   return (
     <div className="section2">
-      <h2> SOBRE MIM</h2>
+      <h2>Sobre mim</h2>
       <div className="second-section2">
         <img
           className="foto-perfil"

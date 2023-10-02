@@ -97,7 +97,7 @@
 
 }
 
-  .container-section4{
+  .container-footer{
     display: flex;
     flex-direction:column;
     text-align: center;
@@ -106,23 +106,10 @@
     color: white;
   }
 
-  .subcontainer-section4{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-  }
-
- .mapa-container{
-    width: 200px;
- }
-
-  .mapa-img{
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-
+.container-footer h2 {
+    font-size: 24px;
+}
+ 
 }
 @media (min-width: 769px) {
     .container-section1{

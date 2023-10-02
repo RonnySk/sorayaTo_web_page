@@ -13,13 +13,19 @@ export default function AboutTO() {
           alt="foto duas criancas com um puzzle"
         />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum
+          A Terapia Ocupacional visa promover a participação das crianças de
+          forma autónoma e independente em todas as áreas de ocupação
+          (atividades da vida diária, escola, sono, participação social, lazer…)
+        </p>
+        <p>
+          A intervenção do Terapeuta Ocupacional passa pelo desenvolvimento de
+          competências em défice (cognitivas, motoras, emocionais, sociais ou
+          sensoriais), ou pela adaptação do ambiente.
+        </p>
+        <p>
+          O brincar é o principal meio de intervenção do Terapeuta Ocupacional
+          pediátrico, sendo este facilitador e motivador para o alcance dos
+          objetivos terapêuticos.
         </p>
       </div>
     </div>
