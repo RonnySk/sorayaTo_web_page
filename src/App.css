@@ -278,19 +278,35 @@
         border-radius: 10px;
         color: #6aa9e9;
         margin-top: 10px;
+        height: 80vh;
+    }
+
+    .container-aboutTo h2{
+        font-size: 35px;
     }
     
     .foto-puzzle{
-        width: 50%;
-        height: 40%;
+        width: 35%;
+        height: 70%;
         border-radius: 15px;
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
     
-    .container-aboutTo p{
-        text-align:center;
-        margin: 15px 30px;
+      .subcontainer-aboutTo{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+        height: 75%;
     }
+
+    .subcontainer-aboutTo-p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 40%;
+        font-size: 20px;
+    }
+
     
 }
