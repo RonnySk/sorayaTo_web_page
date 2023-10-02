@@ -8,20 +8,22 @@ export default function Footer() {
   return (
     <div className="container-footer">
       <h2>Contato</h2>
-      <img src={logo2} alt="logo" />
-      <div className="contatos">
-        <div className="telefon">
-          <WhatsAppIcon />
-          <p>41 8902-4017</p>
-          <MailOutlineIcon sx={{ ml: 2 }} />
-          <p>email@teste.com.br</p>
+      <div className="subcontainer-footer">
+        <img src={logo2} alt="logo" />
+        <div className="contatos">
+          <div className="telefon">
+            <WhatsAppIcon />
+            <p>41 8902-4017</p>
+            <MailOutlineIcon sx={{ ml: 2 }} />
+            <p>email@teste.com.br</p>
+          </div>
         </div>
-      </div>
-      <div className="adress">
-        <FmdGoodIcon sx={{ mr: 2 }} />
-        <div className="adress-paragraph">
-          <p>Rua Amaralina, 456, Bal. Shangrila</p>
-          <p>Pontal do Paraná - PR</p>
+        <div className="adress">
+          <FmdGoodIcon sx={{ mr: 2 }} />
+          <div className="adress-paragraph">
+            <p>Rua Amaralina, 456, Bal. Shangrila</p>
+            <p>Pontal do Paraná - PR</p>
+          </div>
         </div>
       </div>
     </div>
