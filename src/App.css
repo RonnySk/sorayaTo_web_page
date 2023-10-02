@@ -59,6 +59,29 @@
     margin: 15px 30px;
 }
 
+.container-aboutTo{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    color: #6aa9e9;
+}
+
+.foto-puzzle{
+    width: 50%;
+    height: 40%;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-aboutTo p{
+    text-align:justify;
+    margin: 15px 30px;
+}
+
 .section3{
     display: flex;
     flex-direction:column;
@@ -73,12 +96,6 @@
     margin: 10px;
 
 }
-
-.carousel-root{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
   .container-section4{
     display: flex;
@@ -105,6 +122,7 @@
     height: auto;
     border-radius: 10px;
   }
+
 }
 @media (min-width: 769px) {
     .container-section1{
