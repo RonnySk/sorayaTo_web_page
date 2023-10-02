@@ -128,7 +128,7 @@
     margin: 10px;
 }
 
-  .container-footer{
+.container-footer{
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -148,6 +148,10 @@
     margin-bottom: 10px;
 }
 
+.contatos{
+    margin-top: 10px;
+}
+
 .contatos p {
     margin: 5px;
 }
@@ -159,11 +163,17 @@
     align-items: center;
 }
 
-.adress-p{
+.adress-paragraph{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.adress p {
+    margin: 2px;
 }
 
 .telefon{

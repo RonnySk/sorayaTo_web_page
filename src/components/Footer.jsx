@@ -18,8 +18,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="adress">
-        <FmdGoodIcon sx={{ ml: 2 }} />
-        <div className="adress-p">
+        <FmdGoodIcon sx={{ mr: 2 }} />
+        <div className="adress-paragraph">
           <p>Rua Amaralina, 456, Bal. Shangrila</p>
           <p>Pontal do Paraná - PR</p>
         </div>
