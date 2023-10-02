@@ -1,4 +1,3 @@
-import { Box, Typography } from "@mui/material";
 import React from "react";
 import sorayaPerfilImg from "../images/soraya_perfil.png.jpg";
 
@@ -13,7 +12,7 @@ export default function Section2() {
           alt="foto profissional de Soraya"
         />
         <div className="about-me">
-          <h3>Soraya Leone</h3>
+          <h3>Soraya Leone de Moraes</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

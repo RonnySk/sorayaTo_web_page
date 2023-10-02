@@ -7,8 +7,14 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default function Section3() {
   return (
     <div className="section3">
-      <h2>ESTRUTURA</h2>
-      <div className="carouselImg">
+      <h2>Espaço</h2>
+      <img src={consultorio_interno1} alt="imagem interna do consultorio" />
+      <img
+        src={consultorio_interno2}
+        alt="imagem interna do consultorio dois"
+      />
+
+      {/* <div className="carouselImg">
         <Carousel width={600}>
           <div>
             <img
@@ -25,7 +31,7 @@ export default function Section3() {
             />
           </div>
         </Carousel>
-      </div>
+      </div> */}
     </div>
   );
 }
