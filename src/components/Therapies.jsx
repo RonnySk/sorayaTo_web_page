@@ -6,7 +6,7 @@ export default function Therapies() {
     <div className="container-therapies">
       <h2>Áreas de Atendimento</h2>
       <img className="logo2" src={logo2} alt="foto profissional de Soraya" />
-      <div className="about-me">
+      <div className="therapies">
         <ul>
           <li>Motricidade (global e fina);</li>
           <li>
