@@ -1,7 +1,7 @@
 
 
 @media (max-width: 768px) {
-    .container-section1{
+.container-section1{
     display: flex;
     flex-direction:column-reverse;
     justify-content: center;
@@ -53,7 +53,7 @@
 }
 
 .about-me p{
-    text-align:justify;
+    text-align:center;
     margin: 15px 30px;
 }
 
@@ -189,19 +189,17 @@
  
 }
 @media (min-width: 769px) {
+    
     .container-section1{
         display: flex;
-        flex-direction: row;
+        flex-direction:column-reverse;
         justify-content: center;
-        height: 70vh;
+        height: 60vh;
     }
     
     .consultorioImg-section1{
-        width: 50%;
-        height: 90%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 50px;
+        width: 100%;
+        height: 50%;
         border-radius: 10px;
     }
     
@@ -211,14 +209,11 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        transform: translate(-60px, 60px);
-        background-color: #6aa9e9;
-        font-size: 30px;
+        font-size: 13px;
         font-weight: bold;
-        color: white;
-        width: 50%;
-        height: 70%;
-        border-radius: 15px;
+        color: #6aa9e9;
+        width: 100%;
+        height: 50%;
     }
     
     .texto-section1 h2{
@@ -228,6 +223,7 @@
     .section2{
         display: flex;
         flex-direction:column;
+        justify-content: center;
         text-align: center;
         background-color: #6aa9e9;
         border-radius: 10px;
@@ -236,29 +232,71 @@
     
     .section2 h2{
         margin-top: 30px;
-        font-size: 30px;
-    }
-    
-    .second-section2{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        font-size: 25px;
     }
     
     .foto-perfil{
-        width: 30%;
+        width: 50%;
         height: 30%;
         border-radius: 15px;
-        margin: 20px 0 30px 40px;
     }
     
-    .about-me{
+    .about-me p{
+        text-align:center;
+        margin: 15px 30px;
+    }
+    
+    .container-aboutTo{
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        color: #6aa9e9;
+        margin-top: 10px;
+    }
+    
+    .foto-puzzle{
+        width: 50%;
+        height: 40%;
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .container-aboutTo p{
+        text-align:center;
+        margin: 15px 30px;
+    }
+    
+    .container-therapies{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
         align-items: center;
-        width: 30%;
-        margin-right: 20px;
-        font-size: 25px;
+        text-align: center;
+        background-color: #6aa9e9;
+        border-radius: 10px;
+        color: white;
+    }
+    
+    .container-therapies h2{
+        margin-top: 30px;
+    }
+    
+    .logo2{
+        width: 45%;
+        height: 40%;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .therapies li{
+        /* list-style:none; */
+        text-align: left;
+        line-height: 30px;
     }
     
     .section3{
@@ -270,35 +308,71 @@
         color: #6aa9e9;
     }
     
-    .carousel-root{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
+    .section3 h2{
+        margin-top: 30px;
+    }
     
-      .container-section4{
+    .section3 img{
+        border-radius: 20px;
+        margin: 10px;
+    }
+    
+    .container-footer{
         display: flex;
         flex-direction:column;
+        align-items: center;
         text-align: center;
         background-color: #6aa9e9;
         border-radius: 10px;
         color: white;
       }
     
-      .subcontainer-section4{
+    .container-footer h2 {
+        font-size: 24px;
+    }
+    
+    .container-footer img {
+        width: 60%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    .contatos{
+        margin-top: 10px;
+    }
+    
+    .contatos p {
+        margin: 5px;
+    }
+    
+    .adress{
         display: flex;
         flex-direction: row;
+        justify-content: center;
         align-items: center;
-        justify-content: space-around;
-      }
+    }
     
-     .mapa-container{
-        width: 200px;
-     }
+    .adress-paragraph{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     
-      .mapa-img{
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-      }    
+    .adress p {
+        margin: 2px;
+    }
+    
+    .telefon{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .telefon p {
+        margin-left: 5px;
+    } 
 }

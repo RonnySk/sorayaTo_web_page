@@ -12,7 +12,7 @@ export default function AboutTO() {
           alt="foto duas criancas com um puzzle"
         />
         <p>
-          A Terapia Ocupacional visa promover a participação das crianças de
+          A Terapia Ocupacional visa promover a participação dos pacientes de
           forma autónoma e independente em todas as áreas de ocupação
           (atividades da vida diária, escola, sono, participação social, lazer…)
         </p>

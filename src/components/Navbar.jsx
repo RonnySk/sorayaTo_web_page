@@ -70,10 +70,10 @@ export default function NavBar() {
             <Stack direction="row" spacing={2}>
               <Button
                 sx={{
-                  color: "darkBlue",
+                  color: "white",
                   "&:hover": {
                     color: "white",
-                    backgroundColor: "#6aa9e9",
+                    backgroundColor: "#318CE7",
                   },
                 }}
               >
@@ -81,21 +81,43 @@ export default function NavBar() {
               </Button>
               <Button
                 sx={{
-                  color: "darkBlue",
+                  color: "white",
                   "&:hover": {
                     color: "white",
-                    backgroundColor: "#6aa9e9",
+                    backgroundColor: "#318CE7",
                   },
                 }}
               >
-                Estrutura
+                Terapia Ocupacional
               </Button>
               <Button
                 sx={{
-                  color: "darkBlue",
+                  color: "white",
                   "&:hover": {
                     color: "white",
-                    backgroundColor: "#6aa9e9",
+                    backgroundColor: "#318CE7",
+                  },
+                }}
+              >
+                Áreas de Atendimento
+              </Button>
+              <Button
+                sx={{
+                  color: "white",
+                  "&:hover": {
+                    color: "white",
+                    backgroundColor: "#318CE7",
+                  },
+                }}
+              >
+                Espaço
+              </Button>
+              <Button
+                sx={{
+                  color: "white",
+                  "&:hover": {
+                    color: "white",
+                    backgroundColor: "#318CE7",
                   },
                 }}
               >
