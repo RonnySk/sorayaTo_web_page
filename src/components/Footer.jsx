@@ -2,7 +2,7 @@ import React from "react";
 import mapaImg from "../images/mapa.png";
 import logo from "../images/sorayaTo_logo7.png";
 
-export default function Section4() {
+export default function Footer() {
   return (
     <div className="container-section4">
       <h2>CONTATO</h2>

@@ -4,7 +4,7 @@ import consultorio_interno2 from "../images/consultorio_interno2.png";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-export default function Section3() {
+export default function ImgGalery() {
   return (
     <div className="section3">
       <h2>Espaço</h2>

@@ -1,7 +1,7 @@
 import React from "react";
 import sorayaPerfilImg from "../images/soraya_perfil.png.jpg";
 
-export default function Section2() {
+export default function AboutTO() {
   return (
     <div className="section2">
       <h2> SOBRE MIM</h2>
