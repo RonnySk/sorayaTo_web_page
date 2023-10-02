@@ -50,13 +50,25 @@ export default function NavBar() {
                 sx={{ backgroundColor: "#6aa9e9", color: "white" }}
                 onClick={handleClose}
               >
-                Sobre
+                Sobre mim
               </MenuItem>
               <MenuItem
                 sx={{ backgroundColor: "#6aa9e9", color: "white" }}
                 onClick={handleClose}
               >
-                Estrutura
+                Terapia Ocupacional
+              </MenuItem>
+              <MenuItem
+                sx={{ backgroundColor: "#6aa9e9", color: "white" }}
+                onClick={handleClose}
+              >
+                Áreas de Atendimento
+              </MenuItem>
+              <MenuItem
+                sx={{ backgroundColor: "#6aa9e9", color: "white" }}
+                onClick={handleClose}
+              >
+                Espaço
               </MenuItem>
               <MenuItem
                 sx={{ backgroundColor: "#6aa9e9", color: "white" }}
@@ -77,7 +89,7 @@ export default function NavBar() {
                   },
                 }}
               >
-                Sobre
+                Sobre mim
               </Button>
               <Button
                 sx={{

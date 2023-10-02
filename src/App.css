@@ -118,6 +118,7 @@
     color: #6aa9e9;
 }
 
+
 .container-galery h2{
     margin-top: 30px;
 }
@@ -125,6 +126,7 @@
 .container-galery img{
     border-radius: 20px;
     margin: 10px;
+    width: 90%;
 }
 
 .container-footer{
@@ -385,6 +387,7 @@
         background-color: #6aa9e9;
         border-radius: 10px;
         color: white;
+
       }
     
     .container-footer h2 {
