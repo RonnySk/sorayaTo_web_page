@@ -6,11 +6,13 @@ import ImgGalery from "./components/ImgGalery";
 import AboutTO from "./components/AboutTO";
 import Footer from "./components/Footer";
 import Therapies from "./components/Therapies";
+import { Route, Router, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+
       <Section1 />
       <AboutMe />
       <AboutTO />

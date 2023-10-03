@@ -6,7 +6,7 @@ import MailOutlineIcon from "@mui/icons-material/MailOutline";
 
 export default function Footer() {
   return (
-    <div className="container-footer">
+    <div id="contato" className="container-footer">
       <h2>Contato</h2>
       <div className="subcontainer-footer">
         <img src={logo2} alt="logo" />

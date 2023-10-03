@@ -3,7 +3,7 @@ import puzzle from "../images/puzzle.png";
 
 export default function AboutTO() {
   return (
-    <div className="container-aboutTo">
+    <div id="terapiaOcupacional" className="container-aboutTo">
       <h2> O que é Terapia Ocupacional?</h2>
       <div className="subcontainer-aboutTo">
         <img

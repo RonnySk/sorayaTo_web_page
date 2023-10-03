@@ -7,6 +7,7 @@ import {
   Menu,
   MenuItem,
   Stack,
+  Link,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import logo from "../images/sorayaTo_logo_fundo_azul_pequena.png";
@@ -47,34 +48,59 @@ export default function NavBar() {
               }}
             >
               <MenuItem
-                sx={{ backgroundColor: "#6aa9e9", color: "white" }}
+                sx={{ backgroundColor: "#6aa9e9" }}
                 onClick={handleClose}
               >
-                Sobre mim
+                <Link
+                  href="#sobremim"
+                  sx={{ color: "white", textDecoration: "none" }}
+                >
+                  Sobre mim
+                </Link>
               </MenuItem>
               <MenuItem
                 sx={{ backgroundColor: "#6aa9e9", color: "white" }}
                 onClick={handleClose}
               >
-                Terapia Ocupacional
+                <Link
+                  href="#terapiaOcupacional"
+                  sx={{ color: "white", textDecoration: "none" }}
+                >
+                  Terapia Ocupacional
+                </Link>
               </MenuItem>
               <MenuItem
                 sx={{ backgroundColor: "#6aa9e9", color: "white" }}
                 onClick={handleClose}
               >
-                Áreas de Atendimento
+                <Link
+                  href="#atendimento"
+                  sx={{ color: "white", textDecoration: "none" }}
+                >
+                  Áreas de Atendimento
+                </Link>
               </MenuItem>
               <MenuItem
                 sx={{ backgroundColor: "#6aa9e9", color: "white" }}
                 onClick={handleClose}
               >
-                Espaço
+                <Link
+                  href="#espaco"
+                  sx={{ color: "white", textDecoration: "none" }}
+                >
+                  Espaço
+                </Link>
               </MenuItem>
               <MenuItem
                 sx={{ backgroundColor: "#6aa9e9", color: "white" }}
                 onClick={handleClose}
               >
-                Contato
+                <Link
+                  href="#contato"
+                  sx={{ color: "white", textDecoration: "none" }}
+                >
+                  Contato
+                </Link>
               </MenuItem>
             </Menu>
           </Box>

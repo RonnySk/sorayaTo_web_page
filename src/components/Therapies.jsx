@@ -3,7 +3,7 @@ import logo2 from "../images/logo2.png";
 
 export default function Therapies() {
   return (
-    <div className="container-therapies">
+    <div id="atendimento" className="container-therapies">
       <h2>Áreas de Atendimento</h2>
       <div className="subcontainer-therapies">
         <img className="logo2" src={logo2} alt="foto profissional de Soraya" />
