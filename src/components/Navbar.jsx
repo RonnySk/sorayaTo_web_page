@@ -116,7 +116,14 @@ export default function NavBar() {
               >
                 <Link
                   href="#sobremim"
-                  sx={{ color: "white", textDecoration: "none" }}
+                  sx={{
+                    color: "white",
+                    textDecoration: "none",
+                    "&:hover": {
+                      color: "white",
+                      backgroundColor: "#318CE7",
+                    },
+                  }}
                 >
                   Sobre mim
                 </Link>
