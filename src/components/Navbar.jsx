@@ -51,10 +51,7 @@ export default function NavBar() {
                 sx={{ backgroundColor: "#6aa9e9" }}
                 onClick={handleClose}
               >
-                <Link
-                  href="#sobremim"
-                  sx={{ color: "white", textDecoration: "none" }}
-                >
+                <Link href="#sobremim" underline="none" color="white">
                   Sobre mim
                 </Link>
               </MenuItem>
@@ -62,10 +59,7 @@ export default function NavBar() {
                 sx={{ backgroundColor: "#6aa9e9" }}
                 onClick={handleClose}
               >
-                <Link
-                  href="#terapiaOcupacional"
-                  sx={{ color: "white", textDecoration: "none" }}
-                >
+                <Link href="#terapiaOcupacional" underline="none" color="white">
                   Terapia Ocupacional
                 </Link>
               </MenuItem>
@@ -73,10 +67,7 @@ export default function NavBar() {
                 sx={{ backgroundColor: "#6aa9e9" }}
                 onClick={handleClose}
               >
-                <Link
-                  href="#atendimento"
-                  sx={{ color: "white", textDecoration: "none" }}
-                >
+                <Link href="#atendimento" underline="none" color="white">
                   Áreas de Atendimento
                 </Link>
               </MenuItem>
@@ -84,10 +75,7 @@ export default function NavBar() {
                 sx={{ backgroundColor: "#6aa9e9" }}
                 onClick={handleClose}
               >
-                <Link
-                  href="#espaco"
-                  sx={{ color: "white", textDecoration: "none" }}
-                >
+                <Link href="#espaco" underline="none" color="white">
                   Espaço
                 </Link>
               </MenuItem>
@@ -95,10 +83,7 @@ export default function NavBar() {
                 sx={{ backgroundColor: "#6aa9e9" }}
                 onClick={handleClose}
               >
-                <Link
-                  href="#contato"
-                  sx={{ color: "white", textDecoration: "none" }}
-                >
+                <Link href="#contato" underline="none" color="white">
                   Contato
                 </Link>
               </MenuItem>
@@ -114,26 +99,10 @@ export default function NavBar() {
                   },
                 }}
               >
-                <Link
-                  href="#sobremim"
-                  sx={{
-                    color: "white",
-                    textDecoration: "none",
-                    "&:hover": {
-                      color: "white",
-                      backgroundColor: "#318CE7",
-                    },
-                  }}
-                >
+                <Link href="#sobremim" underline="none" color="white">
                   Sobre mim
                 </Link>
               </Button>
-              <Link
-                href="#sobremim"
-                sx={{ color: "white", textDecoration: "none" }}
-              >
-                Sobre mim2
-              </Link>
 
               <Button
                 sx={{
@@ -143,10 +112,7 @@ export default function NavBar() {
                   },
                 }}
               >
-                <Link
-                  href="#terapiaOcupacional"
-                  sx={{ color: "white", textDecoration: "none" }}
-                >
+                <Link href="#terapiaOcupacional" underline="none" color="white">
                   Terapia Ocupacional
                 </Link>
               </Button>
@@ -158,10 +124,7 @@ export default function NavBar() {
                   },
                 }}
               >
-                <Link
-                  href="#atendimento"
-                  sx={{ color: "white", textDecoration: "none" }}
-                >
+                <Link href="#atendimento" underline="none" color="white">
                   Áreas de Atendimento
                 </Link>
               </Button>
@@ -173,10 +136,7 @@ export default function NavBar() {
                   },
                 }}
               >
-                <Link
-                  href="#espaco"
-                  sx={{ color: "white", textDecoration: "none" }}
-                >
+                <Link href="#espaco" underline="none" color="white">
                   Espaço
                 </Link>
               </Button>
@@ -188,13 +148,25 @@ export default function NavBar() {
                   },
                 }}
               >
-                <Link
-                  href="#contato"
-                  sx={{ color: "white", textDecoration: "none" }}
-                >
+                <Link href="#contato" underline="none" color="white">
                   Contato
                 </Link>
               </Button>
+              <Link
+                href="#contato"
+                underline="none"
+                color="white"
+                sx={{
+                  "&:hover": {
+                    color: "white",
+                    backgroundColor: "#318CE7",
+                    borderRadius: 2,
+                    p: 1,
+                  },
+                }}
+              >
+                CONTATO2
+              </Link>
             </Stack>
           </Box>
         </Toolbar>
