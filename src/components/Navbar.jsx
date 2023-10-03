@@ -59,7 +59,7 @@ export default function NavBar() {
                 </Link>
               </MenuItem>
               <MenuItem
-                sx={{ backgroundColor: "#6aa9e9", color: "white" }}
+                sx={{ backgroundColor: "#6aa9e9" }}
                 onClick={handleClose}
               >
                 <Link
@@ -70,7 +70,7 @@ export default function NavBar() {
                 </Link>
               </MenuItem>
               <MenuItem
-                sx={{ backgroundColor: "#6aa9e9", color: "white" }}
+                sx={{ backgroundColor: "#6aa9e9" }}
                 onClick={handleClose}
               >
                 <Link
@@ -81,7 +81,7 @@ export default function NavBar() {
                 </Link>
               </MenuItem>
               <MenuItem
-                sx={{ backgroundColor: "#6aa9e9", color: "white" }}
+                sx={{ backgroundColor: "#6aa9e9" }}
                 onClick={handleClose}
               >
                 <Link
@@ -92,7 +92,7 @@ export default function NavBar() {
                 </Link>
               </MenuItem>
               <MenuItem
-                sx={{ backgroundColor: "#6aa9e9", color: "white" }}
+                sx={{ backgroundColor: "#6aa9e9" }}
                 onClick={handleClose}
               >
                 <Link
@@ -108,58 +108,85 @@ export default function NavBar() {
             <Stack direction="row" spacing={2}>
               <Button
                 sx={{
-                  color: "white",
                   "&:hover": {
                     color: "white",
                     backgroundColor: "#318CE7",
                   },
                 }}
               >
-                Sobre mim
+                <Link
+                  href="#sobremim"
+                  sx={{ color: "white", textDecoration: "none" }}
+                >
+                  Sobre mim
+                </Link>
+              </Button>
+              <Link
+                href="#sobremim"
+                sx={{ color: "white", textDecoration: "none" }}
+              >
+                Sobre mim2
+              </Link>
+
+              <Button
+                sx={{
+                  "&:hover": {
+                    color: "white",
+                    backgroundColor: "#318CE7",
+                  },
+                }}
+              >
+                <Link
+                  href="#terapiaOcupacional"
+                  sx={{ color: "white", textDecoration: "none" }}
+                >
+                  Terapia Ocupacional
+                </Link>
               </Button>
               <Button
                 sx={{
-                  color: "white",
                   "&:hover": {
                     color: "white",
                     backgroundColor: "#318CE7",
                   },
                 }}
               >
-                Terapia Ocupacional
+                <Link
+                  href="#atendimento"
+                  sx={{ color: "white", textDecoration: "none" }}
+                >
+                  Áreas de Atendimento
+                </Link>
               </Button>
               <Button
                 sx={{
-                  color: "white",
                   "&:hover": {
                     color: "white",
                     backgroundColor: "#318CE7",
                   },
                 }}
               >
-                Áreas de Atendimento
+                <Link
+                  href="#espaco"
+                  sx={{ color: "white", textDecoration: "none" }}
+                >
+                  Espaço
+                </Link>
               </Button>
               <Button
                 sx={{
-                  color: "white",
                   "&:hover": {
                     color: "white",
                     backgroundColor: "#318CE7",
                   },
                 }}
               >
-                Espaço
-              </Button>
-              <Button
-                sx={{
-                  color: "white",
-                  "&:hover": {
-                    color: "white",
-                    backgroundColor: "#318CE7",
-                  },
-                }}
-              >
-                Contato
+                <Link
+                  href="#contato"
+                  sx={{ color: "white", textDecoration: "none" }}
+                >
+                  Contato
+                </Link>
               </Button>
             </Stack>
           </Box>
