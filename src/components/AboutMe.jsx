@@ -14,14 +14,51 @@ export default function AboutMe() {
         <div className="about-me">
           <h3>Soraya Leone de Moraes</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            Formada em 1995 pela Universidade Tuiuti do Paraná com Pós
+            graduações em “Saúde Mental em Dependência Química” e “Gestão em
+            Saúde Pública”. <br></br>Sou uma profissional que ama estudar e com
+            sede em novos conhecimentos e nos últimos anos tenho me
+            especializado na área de Transtorno do Espectro Autista (TEA).{" "}
+            <br></br>A minha última especialização foi “Intervenção de Terapia
+            Ocupacional aplicada a criança e adolescente com TEA”, atualmente
+            realizo muitos cursos na área como “Estratégias da Analise do
+            Comportamento Aplicada para pessoas com TEA”, “Treinamento de
+            intervenção Baseada no modelo Denver de intervenção precoce para
+            crianças com TEA”, “Integração sensorial no TEA” e “Intervenção e
+            inclusão no TEA” para assim oferecer o melhor atendimento, sempre
+            com muita responsabilidade, carinho e amor.
           </p>
+          <h3>Experiência Profissional</h3>
+          <ul>
+            <li>
+              1995-2005 | Centro Regional de atendimento integrado ao Deficiente
+              (CRAID) - Atendimento com crianças e adolescentes com necessidades
+              especiais em geral.
+            </li>
+            <li>
+              2005-2007 | Hospital Erasto Gaertner - Atendimento com crianças e
+              adolescentes com doenças neurológicas.
+            </li>
+            <li>
+              2005-2022 | Hospital Psiquiátrico Adauto Botelho - Coordenadora
+              das unidades e criadora das Oficinas de Terapia Ocupacional.
+            </li>
+            <li>
+              2022-2023 | Prefeitura de Pontal do Paraná - Ambulatório Municipal
+              de Especialidades para crianças.
+            </li>
+            <li>2023 - atual | Clinica em Curitiba.</li>
+          </ul>
+          {/* <p>
+            Trabalhei por 10 anos no Centro Regional de atendimento integrado ao
+            Deficiente (CRAID) com crianças e adolescentes com necessidades
+            especiais em geral; 2 anos no Hospital Erasto Gaertner com crianças
+            e adolescentes com doenças neurológicas; 17 anos no Hospital
+            Psiquiátrico Adauto Botelho, onde fui coordenadora das unidades e
+            criadora das Oficinas de Terapia Ocupacional; e por ultimo trabalhei
+            1 ano na Prefeitura de Pontal do Paraná no Ambulatório Municipal de
+            Especialidades para crianças.
+          </p> */}
         </div>
       </div>
     </div>

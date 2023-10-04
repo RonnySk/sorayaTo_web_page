@@ -171,6 +171,7 @@ export default function NavBar() {
                   display: "flex",
                   alignItems: "center",
                   fontSize: 17,
+                  p: 1,
                   "&:hover": {
                     color: "white",
                     backgroundColor: "#318CE7",
