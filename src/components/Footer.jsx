@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="adress">
           <FmdGoodIcon sx={{ mr: 2 }} />
           <div className="adress-paragraph">
-            <p>Rua Amaralina, 456, Bal. Shangrila</p>
+            <p>Rua Amaralina, 526, Bal. Shangrila</p>
             <p>Pontal do Paraná - PR</p>
           </div>
         </div>
