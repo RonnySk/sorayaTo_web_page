@@ -15,7 +15,7 @@ export default function Footer() {
             <WhatsAppIcon />
             <p>41 98902-4017</p>
             <MailOutlineIcon sx={{ ml: 2 }} />
-            <p>email@teste.com.br</p>
+            <p>sorayato@hotmail.com.br</p>
           </div>
         </div>
         <div className="adress">

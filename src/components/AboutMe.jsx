@@ -21,7 +21,7 @@ export default function AboutMe() {
             especializado na área de Transtorno do Espectro Autista (TEA).{" "}
             <br></br>A minha última especialização foi “Intervenção de Terapia
             Ocupacional aplicada a criança e adolescente com TEA”, atualmente
-            realizo muitos cursos na área como “Estratégias da Analise do
+            participo de muitos cursos na área como “Estratégias da Analise do
             Comportamento Aplicada para pessoas com TEA”, “Treinamento de
             intervenção Baseada no modelo Denver de intervenção precoce para
             crianças com TEA”, “Integração sensorial no TEA” e “Intervenção e
@@ -50,18 +50,15 @@ export default function AboutMe() {
             2022-2023 | Prefeitura de Pontal do Paraná - Ambulatório Municipal
             de Especialidades para crianças.
           </li>
-          <li>2023 - atual | Clinica em Curitiba.</li>
+          <li>
+            2023 - atual | Centro de Excelência de Reabilitação Neurológica em
+            São José dos Pinhais - Atendimento de crianças com TEA, TDAH e TOD.
+          </li>
+          <li>
+            2023 - atual | Consultório Privado em Bal. Shangrila - Pontal do
+            Paraná.
+          </li>
         </ul>
-        {/* <p>
-            Trabalhei por 10 anos no Centro Regional de atendimento integrado ao
-            Deficiente (CRAID) com crianças e adolescentes com necessidades
-            especiais em geral; 2 anos no Hospital Erasto Gaertner com crianças
-            e adolescentes com doenças neurológicas; 17 anos no Hospital
-            Psiquiátrico Adauto Botelho, onde fui coordenadora das unidades e
-            criadora das Oficinas de Terapia Ocupacional; e por ultimo trabalhei
-            1 ano na Prefeitura de Pontal do Paraná no Ambulatório Municipal de
-            Especialidades para crianças.
-          </p> */}
       </div>
     </div>
   );
