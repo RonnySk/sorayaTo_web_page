@@ -58,14 +58,14 @@
     margin: 15px 30px;
 }
 
-.about-me ul {
+.experienciaProfissional ul{
     text-align: justify;
     list-style: none;
     padding: 0;
     margin: 20px 30px;
 }
 
-.about-me li {
+.experienciaProfissional li {
     margin-top: 10px;
 }
 
@@ -261,8 +261,8 @@
     }
     
     .foto-perfil{
-        width: 35%;
-        height: 30%;
+        width: 40%;
+        height: 35%;
         border-radius: 15px;
         margin: 20px 0 30px 40px;
     }
@@ -278,10 +278,31 @@
         line-height: 30px;
     }
 
-    .about-me p{
-        margin-top: 30px;
+    .about-me h3 {
+        margin: 0;
     }
+
     
+    .experienciaProfissional{
+        width: 80%;
+    }
+
+    .experienciaProfissional h3{
+        font-size: 23.4px;
+    }
+
+    .experienciaProfissional ul{
+        text-align: justify;
+        list-style: none;
+        padding: 0;
+        margin: 30px 100px;
+    }
+
+    .experienciaProfissional li {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+        
     .container-aboutTo{
         display: flex;
         flex-direction:column;

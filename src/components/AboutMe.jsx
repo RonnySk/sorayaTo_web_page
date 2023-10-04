@@ -28,28 +28,31 @@ export default function AboutMe() {
             inclusão no TEA” para assim oferecer o melhor atendimento, sempre
             com muita responsabilidade, carinho e amor.
           </p>
-          <h3>Experiência Profissional</h3>
-          <ul>
-            <li>
-              1995-2005 | Centro Regional de atendimento integrado ao Deficiente
-              (CRAID) - Atendimento com crianças e adolescentes com necessidades
-              especiais em geral.
-            </li>
-            <li>
-              2005-2007 | Hospital Erasto Gaertner - Atendimento com crianças e
-              adolescentes com doenças neurológicas.
-            </li>
-            <li>
-              2005-2022 | Hospital Psiquiátrico Adauto Botelho - Coordenadora
-              das unidades e criadora das Oficinas de Terapia Ocupacional.
-            </li>
-            <li>
-              2022-2023 | Prefeitura de Pontal do Paraná - Ambulatório Municipal
-              de Especialidades para crianças.
-            </li>
-            <li>2023 - atual | Clinica em Curitiba.</li>
-          </ul>
-          {/* <p>
+        </div>
+      </div>
+      <div className="experienciaProfissional">
+        <h3>Experiência Profissional</h3>
+        <ul>
+          <li>
+            1995-2005 | Centro Regional de atendimento integrado ao Deficiente
+            (CRAID) - Atendimento com crianças e adolescentes com necessidades
+            especiais em geral.
+          </li>
+          <li>
+            2005-2007 | Hospital Erasto Gaertner - Atendimento com crianças e
+            adolescentes com doenças neurológicas.
+          </li>
+          <li>
+            2005-2022 | Hospital Psiquiátrico Adauto Botelho - Coordenadora das
+            unidades e criadora das Oficinas de Terapia Ocupacional.
+          </li>
+          <li>
+            2022-2023 | Prefeitura de Pontal do Paraná - Ambulatório Municipal
+            de Especialidades para crianças.
+          </li>
+          <li>2023 - atual | Clinica em Curitiba.</li>
+        </ul>
+        {/* <p>
             Trabalhei por 10 anos no Centro Regional de atendimento integrado ao
             Deficiente (CRAID) com crianças e adolescentes com necessidades
             especiais em geral; 2 anos no Hospital Erasto Gaertner com crianças
@@ -59,7 +62,6 @@ export default function AboutMe() {
             1 ano na Prefeitura de Pontal do Paraná no Ambulatório Municipal de
             Especialidades para crianças.
           </p> */}
-        </div>
       </div>
     </div>
   );
