@@ -202,6 +202,11 @@
  
 }
 @media (min-width: 769px) {
+
+    h2 {
+        font-size: 35px;
+    }
+
     .container-section1{
         display: flex;
         flex-direction: row;
@@ -250,7 +255,6 @@
     
     .section2 h2{
         margin-top: 40px;
-        font-size: 35px;
     }
     
     .second-section2{
@@ -315,10 +319,7 @@
         height: 80vh;
     }
 
-    .container-aboutTo h2{
-        font-size: 35px;
-    }
-    
+   
     .foto-puzzle{
         width: 35%;
         height: 70%;
@@ -397,7 +398,6 @@
     
     .container-galery h2{
         margin-top: 30px;
-        font-size: 35px;
     }
     
     .subcontainer-galery{
@@ -423,16 +423,13 @@
 
       }
     
-    .container-footer h2 {
-        font-size: 35px;
-    }
-    
     .subcontainer-footer{
         display: flex;
         flex-direction:row;
         justify-content: space-around;
         align-items: center;
         margin-bottom: 20px;
+        font-size: 20px;
     }
     
     .container-footer img {
@@ -471,9 +468,5 @@
     .telefon p {
         margin-left: 5px;
     }
-
-
-
-
-    
+  
 }

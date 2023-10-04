@@ -9,22 +9,20 @@ export default function Therapies() {
         <img className="logo2" src={logo2} alt="foto profissional de Soraya" />
         <div className="therapies">
           <ul>
-            <li>Motricidade (global e fina)</li>
-            <li>
-              Sensorial (tátil, vestibular, propriocetivo, auditivo, olfativo,
-              visual, gustativo)
-            </li>
+            <li>Motricidade (Global e Fina)</li>
             <li>Interação social</li>
-            <li>Perturbação do Espectro do Autismo</li>
-            <li>Perturbação do Desenvolvimento Intelectual</li>
-            <li>Perturbação de Défice de Atenção/Hiperatividade</li>
+            <li>Transtorno do Espectro Autista</li>
+            <li>Atraso Cognitivo</li>
+            <li>Transtorno de Défict de Atenção/Hiperatividade</li>
+            <li>Treino de atividades de vida diária</li>
           </ul>
           <ul>
             <li>Atraso Global do Desenvolvimento</li>
-            <li>Perturbação do Desenvolvimento da Coordenação</li>
+            <li>Atraso no desenvolvimento das Habilidades Motoras</li>
             <li>Disfunção de Integração Sensorial</li>
-            <li>Alterações genéticas (síndromes)</li>
+            <li>Alterações genéticas (Síndromes)</li>
             <li>Seletividade alimentar</li>
+            <li>Avaliação em Bebê de risco</li>
           </ul>
         </div>
       </div>
