@@ -39,7 +39,7 @@ export default function AboutMe() {
             especiais em geral.
           </li>
           <li>
-            2005-2007 | Hospital Erasto Gaertner - Atendimento com crianças e
+            2003-2005 | Hospital Erasto Gaertner - Atendimento com crianças e
             adolescentes com doenças neurológicas.
           </li>
           <li>
