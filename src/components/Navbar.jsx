@@ -91,81 +91,94 @@ export default function NavBar() {
           </Box>
           <Box sx={{ display: { xs: "none", md: "block", lg: "block" } }}>
             <Stack direction="row" spacing={2}>
-              <Button
+              <Link
+                href="#sobremim"
+                underline="none"
+                color="white"
                 sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  fontSize: 17,
                   "&:hover": {
                     color: "white",
                     backgroundColor: "#318CE7",
+                    borderRadius: 2,
                   },
                 }}
               >
-                <Link href="#sobremim" underline="none" color="white">
-                  Sobre mim
-                </Link>
-              </Button>
+                SOBRE MIM
+              </Link>
 
-              <Button
+              <Link
+                href="#terapiaOcupacional"
+                underline="none"
+                color="white"
                 sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  fontSize: 17,
                   "&:hover": {
                     color: "white",
                     backgroundColor: "#318CE7",
+                    borderRadius: 2,
                   },
                 }}
               >
-                <Link href="#terapiaOcupacional" underline="none" color="white">
-                  Terapia Ocupacional
-                </Link>
-              </Button>
-              <Button
+                TERAPIA OCUPACIONAL
+              </Link>
+
+              <Link
+                href="#atendimento"
+                underline="none"
+                color="white"
                 sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  fontSize: 17,
                   "&:hover": {
                     color: "white",
                     backgroundColor: "#318CE7",
+                    borderRadius: 2,
                   },
                 }}
               >
-                <Link href="#atendimento" underline="none" color="white">
-                  Áreas de Atendimento
-                </Link>
-              </Button>
-              <Button
+                ÁREAS DE ATENDIMENTO
+              </Link>
+
+              <Link
+                href="#espaco"
+                underline="none"
+                color="white"
                 sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  fontSize: 17,
                   "&:hover": {
                     color: "white",
                     backgroundColor: "#318CE7",
+                    borderRadius: 2,
                   },
                 }}
               >
-                <Link href="#espaco" underline="none" color="white">
-                  Espaço
-                </Link>
-              </Button>
-              <Button
-                sx={{
-                  "&:hover": {
-                    color: "white",
-                    backgroundColor: "#318CE7",
-                  },
-                }}
-              >
-                <Link href="#contato" underline="none" color="white">
-                  Contato
-                </Link>
-              </Button>
+                ESPAÇO
+              </Link>
+
               <Link
                 href="#contato"
                 underline="none"
                 color="white"
                 sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  fontSize: 17,
                   "&:hover": {
                     color: "white",
                     backgroundColor: "#318CE7",
                     borderRadius: 2,
-                    p: 1,
                   },
                 }}
               >
-                CONTATO2
+                CONTATO
               </Link>
             </Stack>
           </Box>
