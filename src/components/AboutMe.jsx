@@ -13,20 +13,21 @@ export default function AboutMe() {
         />
         <div className="about-me">
           <h3>Soraya Leone de Moraes</h3>
+
           <p>
-            Formada em 1995 pela Universidade Tuiuti do Paraná com Pós
-            graduações em “Saúde Mental em Dependência Química” e “Gestão em
-            Saúde Pública”. <br></br>Sou uma profissional que ama estudar e com
-            sede em novos conhecimentos e nos últimos anos tenho me
-            especializado na área de Transtorno do Espectro Autista (TEA).{" "}
-            <br></br>A minha última especialização foi “Intervenção de Terapia
-            Ocupacional aplicada a criança e adolescente com TEA”, atualmente
-            participo de muitos cursos na área como “Estratégias da Analise do
-            Comportamento Aplicada para pessoas com TEA”, “Treinamento de
-            intervenção Baseada no modelo Denver de intervenção precoce para
-            crianças com TEA”, “Integração sensorial no TEA” e “Intervenção e
-            inclusão no TEA” para assim oferecer o melhor atendimento, sempre
-            com muita responsabilidade, carinho e amor.
+            Formada pela Universidade Tuiuti do Paraná em 1995, possuo
+            pós-graduações em “Terapia da mão”, "Saúde Mental em Dependência
+            Química" e "Gestão em Saúde Pública". Sou uma profissional
+            apaixonada por estudar e sempre em busca de novos conhecimentos. Nos
+            últimos anos, tenho me especializado na área de Transtorno do
+            Espectro Autista (TEA) e no método ABA (Análise do Comportamento
+            Aplicada).
+            <br></br>Meu objetivo é prestar atendimentos individualizados com
+            excelência, valorizando a interdisciplinaridade e juntamente com as
+            famílias, favorecer o desenvolvimento humano e a inclusão social.
+            <br></br>Busco promover uma reabilitação acessível à população e
+            oferecer um serviço de excelência com práticas baseadas em
+            evidências
           </p>
         </div>
       </div>
