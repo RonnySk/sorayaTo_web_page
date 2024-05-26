@@ -22,12 +22,15 @@ export default function AboutMe() {
             últimos anos, tenho me especializado na área de Transtorno do
             Espectro Autista (TEA) e no método ABA (Análise do Comportamento
             Aplicada).
-            <br></br>Meu objetivo é prestar atendimentos individualizados com
-            excelência, valorizando a interdisciplinaridade e juntamente com as
-            famílias, favorecer o desenvolvimento humano e a inclusão social.
-            <br></br>Busco promover uma reabilitação acessível à população e
-            oferecer um serviço de excelência com práticas baseadas em
-            evidências
+          </p>
+          <p>
+            Meu objetivo é prestar atendimentos individualizados com excelência,
+            valorizando a interdisciplinaridade e juntamente com as famílias,
+            favorecer o desenvolvimento humano e a inclusão social.
+          </p>
+          <p>
+            Busco promover uma reabilitação acessível à população e oferecer um
+            serviço de excelência com práticas baseadas em evidências
           </p>
         </div>
       </div>
