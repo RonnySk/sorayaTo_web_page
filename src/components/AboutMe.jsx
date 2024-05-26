@@ -30,7 +30,7 @@ export default function AboutMe() {
           </p>
           <p>
             Busco promover uma reabilitação acessível à população e oferecer um
-            serviço de excelência com práticas baseadas em evidências
+            serviço de excelência com práticas baseadas em evidências.
           </p>
         </div>
       </div>
